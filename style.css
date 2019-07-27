@@ -76,7 +76,9 @@ h1 {
 .sub-head {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
     width: 900px;
+    margin-top: -60px;
 }
 
 .recipe {
