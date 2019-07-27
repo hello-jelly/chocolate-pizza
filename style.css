@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 900px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 150px;
+    padding: 10px;
+    width: 900px;
+    margin-top: 20px;
+    margin-bottom: -25px;
+}
+
+.logo {
+    width: 50%;
+}
+
+.logo-img {
+    float: left;
+    height: 65px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+ 
+h2 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 3rem;
+    margin: 0;
+}
+
+#logo-text {
+    height: 150px;
+    font-size: .75rem;
+    font-family: sans-serif;
+    margin: -5px;
+}
+
+.icons {
+    align-self: center;
+}
+
+#space {
+    margin-left: 10px;
+}
+
+.rule {
+    background-image: url(./img/hr-img.png);
+    border-image-repeat: repeat;
+    height: 15px;
+}
+
+h1 {
+    font-family: 'Teko', sans-serif;
+    font-size: 3rem;
+    margin-top: 60px;
+}
+
+.print {
+    font-family: sans-serif;
+    color: darkgrey;
+    font-size: 1rem;
+    margin-top: -45px;
+}
+
+#print-icon {
+    height: 20px;
+}
+
+.sub-head {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+}
+
+.recipe {
+    color: grey;
+    font-size: 1.25rem;
+    text-indent: 50px;
+}
+
+.ingredient-checklist {
+    background-image: url("./img/list-bg.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 305px;
+    margin-top: 50px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    padding-top: 34px;
+    width: 100%;
+}
+
+.ingredient-container {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.1em;
+    color: grey;
+    margin-top: 10px;
+    width: 350px;
+}
+
+#border-bottom {
+    margin-top: 50px;
+}
+
+.bio {
+    padding-top: 5px;
+    border-top: 50px;
+    border-image: url(./img/flic-icon.png) 15px 15px round;
+    /* border-image-repeat: repeat; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #555;
+}
+
+.author-highlight img {
+    float: left;
+    border: 20px solid white;
+}
+
+.author-highlight h3 {
+    margin-bottom: 10px;
+}
+
+.author-highlight p {
+    margin-top: 0;
+}
+
+.bio button {
+    color: white;
+    background-color: rgb(188, 112, 88);
+    border: none;
+    font-size: 1.1em;
+    width: 200px;
+    height: 50px;
+}
+
+.footer-logo-ingredient-container {
+    position:relative;
+}
+.footer-logo-ingredient-container p {
+    color: grey;
+    text-align: center;
+    margin: auto;
+}
+.footer-logo-ingredient-container p:first-of-type {
+    padding-top: 30px;
+}
+.footer-logo-ingredient-container div {
+    position: absolute;
+    top: -35px;
+    left: 47%;
+    border: 10px solid white;
+}
